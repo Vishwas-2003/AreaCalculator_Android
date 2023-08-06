@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Area Calculator</string>
+    <string name="polygon_name">Enter Shape</string>
+    <string name="edtTxt1">Length</string>
+    <string name="edtTxt2">Breadth</string>
+    <string name="btn">Calculate</string>
+    <string name="btn_name">Select</string>
+    <string name="result"></string>
+</resources>

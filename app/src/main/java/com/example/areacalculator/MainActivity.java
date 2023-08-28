@@ -3,6 +3,7 @@ package com.example.areacalculator;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.annotation.SuppressLint;
+import android.content.pm.ActivityInfo;
 import android.icu.number.Precision;
 import android.os.Bundle;
 import android.view.KeyEvent;
@@ -22,6 +23,8 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState){
         super.onCreate(savedInstanceState);
+        setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_LOCKED);
+
         setContentView(R.layout.activity_main);
         EditText edttxt1 = findViewById(R.id.edt1);
         EditText edttxt2=findViewById(R.id.edt2);
